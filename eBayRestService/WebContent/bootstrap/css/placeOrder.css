@@ -1,0 +1,76 @@
+
+
+.mylabel1{
+width: 112px;height: 19px; font-size:large;
+ font-family::calligraphic;
+}
+
+.mysubmit1{
+ color:white;
+ border:1px orange solid; 
+ width:234px; 
+ height:40px;
+ font-size:large;
+  background-color:#f66822;
+  margin-top:20px;
+}
+
+.myscreenSize{
+color:#000000;
+ border:1px white solid; 
+ width:1024px; 
+ height:500px;
+ float:"center";
+left:150px;
+
+position:absolute;
+
+}
+
+
+.mylabel2{
+width: 200px;height:150px;
+padding-left:30px;
+ font-size:large;
+ left:1px;
+ font-family:calibre;
+position:absolute;
+}
+
+.mysubmit2{
+ color:white;
+ border:1px orange solid; 
+ width:270px; 
+ height:40px;
+ font-size:large;
+  background-color:#f66822;
+  left:350px;
+
+position:absolute;
+}
+.mysubmit3{
+ color:White;
+ border:1px white solid; 
+ width:100px; 
+ height:25px;
+  background-color:#f66822;
+ float:right;
+}
+
+
+
+#panel1,#flip1,#panel2,#flip2,#panel3,#flip3,#panel4,#flip4
+{
+padding:5px;
+background-color:#6495ed;
+border:solid 1px #c3c3c3;
+}
+#panel1,#panel2,#panel3,#panel4
+{
+	padding-top:30px;
+	padding-left:80px;
+	padding-bottom:50px;
+	background-color:white;
+	display:none;
+}
+

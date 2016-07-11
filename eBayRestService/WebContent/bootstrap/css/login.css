@@ -1,0 +1,87 @@
+.css_button {
+    font-size: 16px;
+    font-family:Times New Roman;
+    font-weight:normal;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #d133ed;
+    padding: 4px 18px;
+    text-shadow:0px 0px 11px #b115cd;
+    -moz-box-shadow:inset 0px 1px 1px 0px #ee97fe;
+    -webkit-box-shadow:inset 0px 1px 1px 0px #ee97fe;
+    box-shadow:inset 0px 1px 1px 0px #ee97fe;
+    font-weight:normal;
+    text-decoration:none;
+    cursor: pointer;
+    background:-webkit-linear-gradient(90deg, #b51ed0 5%, #da3df6 100%);
+    background:-moz-linear-gradient(90deg, #b51ed0 5%, #da3df6 100%);
+    background:-ms-linear-gradient(90deg, #b51ed0 5%, #da3df6 100%);
+    background:linear-gradient(180deg, #da3df6 5%, #b51ed0 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#da3df6', endColorstr='#b51ed0');
+    /*background-color:#b51ed0;*/
+    color:#ffffff;
+    display:inline-block;
+}
+.css_button:hover {
+    background:-webkit-linear-gradient(90deg, #da3df6 5%, #b51ed0 100%);
+    background:-moz-linear-gradient(90deg, #da3df6 5%, #b51ed0 100%);
+    background:-ms-linear-gradient(90deg, #da3df6 5%, #b51ed0 100%);
+    background:linear-gradient(180deg, #b51ed0 5%, #da3df6 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b51ed0', endColorstr='#da3df6');
+    /*background-color:#da3df6;*/
+}
+.css_button:active {
+    position:relative;
+    top:1px;
+}
+.forgot_password
+{
+color : #666666; 
+cursor: pointer; 
+font-size:11px; 
+margin:0px;
+}
+
+.forgot_password_form {
+    display: none;
+}
+
+.forgot_password:hover>.forgot_password_form {
+	color:2271B2;    
+	display: block;
+}
+
+.Signup
+{
+color : #666666; 
+cursor: pointer; 
+font-size:18px; 
+margin-left:312px;
+}
+.login_box
+{
+-moz-box-shadow:1px 0px 6px 8px rgba(118, 118, 116, 0.74);
+-webkit-box-shadow:1px 0px 6px 8px rgba(118, 118, 116, 0.74);
+box-shadow:1px 0px 6px 8px rgba(118, 118, 116, 0.74);
+background-color: #FFFFFF;
+position: absolute;
+    margin: 0 auto;
+    top: 150px;
+}
+ 
+.textbox { 
+    background-color: #FFFFFF; 
+    border: solid 1px #CCCCCC; 
+    outline: none; 
+    padding: 2px 2px; 	
+} 
+.textbox:hover { 
+    background-color: #FFFFFF; 
+} 
+.textbox:focus { 
+    border: solid 1px #2271B2; 
+} 
+.textbox:active { 
+    border: solid 1px #2271B2; 
+}

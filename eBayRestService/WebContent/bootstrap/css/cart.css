@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+.cart-header{
+	height : 50px;
+	border-bottom: 1px solid black;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.cartContainer{
+	
+}
+
+.empty-cart{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px solid gray;
+	display: none;
+}
+
+.cart-revealmodel {
+		visibility: hidden;
+		top: 100px !important; 
+		left: 50%;
+		margin-left: -440px;
+		width: 850px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow:1px 0px 6px 8px rgba(118, 118, 116, 0.74);
+		-webkit-box-shadow:1px 0px 6px 8px rgba(118, 118, 116, 0.74);
+		box-shadow:1px 0px 6px 8px rgba(118, 118, 116, 0.74);
+	}	
+	
+
+.productName{
+	float:left;
+	margin-left:20px;
+	width:200px;
+}
+
+.qty{
+	float:left;
+	margin-left:20px;
+	width:50px;
+}
+
+.price{
+	float:left;
+	margin-left:20px;
+	width:120px;
+}
+
+.subtotal{
+	float:left;
+	margin-left:20px;
+	width:120px;
+}
+
+.vat{
+	float:left;
+	margin-left:20px;
+	width:40px;
+	
+}
+
+.remove{
+	float:left;
+	margin-left:20px
+}
+
+.totalcost {
+	float:right;
+	margin-top:20px;
+	margin-right:20px;
+}
+
+
+.save{
+	color : black;
+	display: none;
+}
+
+
+.quantityInput{
+	width : 50px;	
+}
